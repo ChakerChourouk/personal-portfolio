@@ -1,0 +1,33 @@
+/* Style for the card */
+.custom-card {
+    background-color: black;
+    border: 2px solid;
+    border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
+    border-radius: 15px; /* Rounded corners */
+    color: white; /* Text color */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  
+  /* Rainbow button */
+  .rainbow-button {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(76,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .rainbow-button:hover {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(76,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+  }
+  

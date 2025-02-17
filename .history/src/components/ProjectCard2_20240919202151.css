@@ -1,0 +1,6 @@
+.project img {
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures image is cropped to fit within the container */
+  }
+  
